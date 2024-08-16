@@ -4,18 +4,50 @@
 This Project contains a data pipeline that monthly extracts Spotify's Global Top 50 playlist, transforms it, and loads it into an S3 data lake. The pipeline leverages Python, AWS Lambda, S3, Glue, CloudWatch, and Athena for efficient data ingestion and analysis.
 
 ## Architecture
-![Project Architecture]{}
+![Project Architecture](Architecture.png)
+
+## Tech Stack
+- Programming Language: Python
+- Scripting Lanuage: SQL
+- Amazon Web Services:
+  * AWS Lambda
+  * AWS S3
+  * AWS Glue
+  * AWS Cloudwatch
+  * AWS Athena
+ 
+## Contribute to this project: 
+
+## Dataset Used
+Top 50 - Global spotify plalist: 
+Original Data Source: https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF (data pipeline extracts live data from this link)
+
+### More info about Datasets:
+
+## Scripts Used:
+1. [Spotify Data Pipeline Project](main/Spotify Data Pipeline Project.ipynb)
+2. 
+
+
+
+
+
+
+
+
+
+
+
 
 1. First step is to extract data from api for spotify;
-2. 
+   
+3. 
 go to spotify website;
 https://developer.spotify.com/dashboard
 >> login Spotify, I’ve logged in using crystal051997@gmail.com
 Click create app,
 
-We have clientid and secretid, write & save them;
-Clientid: 
-ClientSecretid: 
+We have clientid and secretid, write & save them: Clientid, ClientSecretid.
 
 2. Now go back to your jupyter notebook;
 !pip install spotipy
