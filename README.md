@@ -3,6 +3,9 @@
 ## Introduction
 This Project contains a data pipeline that monthly extracts Spotify's Global Top 50 playlist, transforms it, and loads it into an S3 data lake. The pipeline leverages Python, AWS Lambda, S3, Glue, CloudWatch, and Athena for efficient data ingestion and analysis.
 
+## Architecture
+![Project Architecture]{}
+
 1. First step is to extract data from api for spotify;
 2. 
 go to spotify website;
