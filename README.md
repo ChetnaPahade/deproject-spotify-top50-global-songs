@@ -4,7 +4,7 @@
 This Project contains a data pipeline that extracts monthly Spotify's Global Top 50 playlist, transforms it, and loads it into an S3 data lake. The pipeline leverages Python, AWS Lambda, S3, Glue, CloudWatch, and Athena for efficient data ingestion and analysis.
 
 ## Architecture
-![Project Architecture](Architecture.png)
+![Project Architecture](Images/Architecture.png)
 
 ## Tech Stack
 - Programming Language: Python
