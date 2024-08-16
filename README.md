@@ -1,7 +1,7 @@
 # deproject-spotify-top50-global-songs
-Spotify ETL Data Pipeline using Python, AWS Lambda, S3, Glue, Cloudwatch and Athena
+##Spotify ETL Data Pipeline using Python, AWS Lambda, S3, Glue, Cloudwatch and Athena
 
-Data Pipeline for spotify top 50 Global 50 Hits steps involved:
+###Data Pipeline for spotify top 50 Global 50 Hits steps involved:
 
 1. First step is to extract data from api for spotify;
 
