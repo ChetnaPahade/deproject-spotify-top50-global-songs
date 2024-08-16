@@ -1,20 +1,19 @@
-# deproject-spotify-top50-global-songs
-##Spotify ETL Data Pipeline using Python, AWS Lambda, S3, Glue, Cloudwatch and Athena
+# Data Pipeline for spotify top 50 Global Hits:
 
-###Data Pipeline for spotify top 50 Global 50 Hits steps involved:
+## Introduction
+This repository contains a data pipeline that extracts Spotify's Global Top 50 tracks, transforming and loading the data into an AWS data lake. The pipeline utilizes Python, AWS Lambda, S3, Glue, CloudWatch, and Athena for efficient data processing and analysis.
 
 1. First step is to extract data from api for spotify;
-
-go to website;
+2. 
+go to spotify website;
 https://developer.spotify.com/dashboard
 >> login Spotify, I’ve logged in using crystal051997@gmail.com
 Click create app,
- 
- 
- 
-We have clientid and secretid,
-Clientid: 0a9150987b1f45f8a5f8cfcf34fb81f1
-ClientSecretid: b1a20398bea54cd2a1473715986662a1
+
+We have clientid and secretid, write & save them;
+Clientid: 
+ClientSecretid: 
+
 2. Now go back to your jupyter notebook;
 !pip install spotipy
  
@@ -34,7 +33,6 @@ Write the name: spotify-etl-project-cp
 keep everything same and create bucket
 >>Under spotify etl project create subfolders; as raw_data & transformed_data
 
- 
 >>
 
 Now, under Amazon S3, Amazon S3 >Buckets>spotify-etl-project-cp
