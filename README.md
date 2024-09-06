@@ -26,7 +26,6 @@ Original Data Source: https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF (
 
 ## Scripts Used:
 1. [Spotify Data Pipeline Project](main/Spotify Data Pipeline Project.ipynb)
-2. )
 
 ## Steps Involved
 
