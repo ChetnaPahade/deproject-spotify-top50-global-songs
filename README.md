@@ -7,8 +7,7 @@ This Project contains a data pipeline that extracts monthly Spotify's Global Top
 ![Project Architecture](Images/Architecture.png)
 
 ## Tech Stack
-- Programming Language: Python
-- Scripting Lanuage: SQL
+- Language: Python, SQL
 - Amazon Web Services:
   * AWS Lambda
   * AWS S3
